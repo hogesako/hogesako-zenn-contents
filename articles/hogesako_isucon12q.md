@@ -8,6 +8,7 @@ published: true
 # サマリ
 ISUCON12にくすサポISUCON部として参加し、スコア25666、19位で予選突破しました。
 アプリの改修内容や時系列はチームメンバーであるtondolのエントリに任せるとして、自分のやったこと（とくにMySQL移行関連）を書いています。
+https://isucon.net/archives/56571716.html
 
 # チーム構成
 - tondol: アプリを実装する人

@@ -3,7 +3,7 @@ title: "ISUCON13にくすサポISUCON部として参加し、147,649点で9位�
 emoji: "🦑"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [isucon]
-published: false
+published: true
 ---
 ISUCON13にくすサポISUCON部として参加し、147,649点で9位でした。
 やったことなどは[@tondolが書いてくれた](https://scrapbox.io/tondol-pub/ISUCON13%E3%81%AB%E3%81%8F%E3%81%99%E3%82%B5%E3%83%9DISUCON%E9%83%A8%E3%81%A8%E3%81%97%E3%81%A6%E5%8F%82%E5%8A%A0%E3%81%97%E3%80%819%E4%BD%8D%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F)ので、別の内容を書こうと思います。
@@ -62,7 +62,7 @@ ISUCON7からISUCON11までは予選を突破することができず、最近�
 #### ボトルネックを潰す
 そして、当然のことながらボトルネックがわかっていても改善できなければ意味がありません。
 自分は実務ではJavaしかつかっていないので、ISUCONでは慣れていない言語を利用する必要があります。わかんねーと思いつつ、典型的なN+1の改善や、メモリへのキャッシュ、Redisの利用方法などはISUCON開催日の数週間前までに過去問を解いておくことによって、Golangとしての書き方を脳味噌のキャッシュに乗せておくというのも非常に大事だったように思います。
-といっても去年の優勝チームNaruseJunのとーふとふさんの記事の、「[チューニングのレパートリーを増やす練習](https://zenn.dev/tohutohu/articles/8c34d1187e1b21#isucon%E3%81%A7%E5%8B%9D%E3%81%A4%E3%81%9F%E3%82%81%E3%81%AB)」の受け売りなんですけどね。
+といっても去年の優勝チーム「NaruseJun」とーふとふさんの記事の、「[チューニングのレパートリーを増やす練習](https://zenn.dev/tohutohu/articles/8c34d1187e1b21#isucon%E3%81%A7%E5%8B%9D%E3%81%A4%E3%81%9F%E3%82%81%E3%81%AB)」の受け売りなんですけどね。
 
 #### ボトルネックが解消されたことを確認する
 自分たちは「[貼っていたはずのインデックスが貼れていなかった(※20時15分のところです)](https://tondol.hatenablog.jp/entry/kususapo-isucon-10)」^[いまみてもコミットコメントが焦りすぎている]、「クエリチューニングしたけど実は早くなっていなかった」、「デプロイするのを忘れていた」みたいなことをやらかしすぎています。
@@ -117,4 +117,4 @@ alpの上位エンドポイントの処理を読んでも悪くない順当な�
 
 ## おわりに
 運営の皆さん、作問・練習環境提供のさくらインターネットさん、競技環境提供のAWSさん、スポンサーの皆さん、楽しい時間をありがとうございました！！
-また、[matsuu/cloud-init-isucon](https://github.com/matsuu/cloud-init-isucon/) をメンテしてくださっているmatsuuさん、毎年ありがとうございます。
+また、[matsuu/cloud-init-isucon](https://github.com/matsuu/cloud-init-isucon/) などをメンテしてくださっているmatsuuさん、毎年ありがとうございます。
